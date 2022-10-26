@@ -14,7 +14,7 @@ import kotlinx.coroutines.flow.map
  *
  * Get notes use case using sealed classes for identifying sort selected.
  */
-class GetNodes(
+class GetNotes(
     private val repository: NoteRepository
 ) {
     operator fun invoke(
