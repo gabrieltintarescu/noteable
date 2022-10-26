@@ -1,4 +1,4 @@
-package com.gabrieltintarescu.noteable
+package com.gabrieltintarescu.noteable.feature_note.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
