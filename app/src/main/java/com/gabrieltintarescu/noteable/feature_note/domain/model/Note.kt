@@ -3,6 +3,7 @@ package com.gabrieltintarescu.noteable.feature_note.domain.model
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.gabrieltintarescu.noteable.ui.theme.*
+import java.lang.Exception
 
 /**
  * @project Noteable
@@ -22,3 +23,4 @@ data class Note(
     }
 }
 
+class InvalidNoteException(message: String): Exception(message)
